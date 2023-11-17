@@ -22,9 +22,9 @@ composer require w3lifer/php-google-drive
 
 // require_once __DIR__ . '/vendor/autoload.php';
 
-use w3lifer\google\PhpGoogleDrive;
+use w3lifer\google\Drive;
 
-$googleDrive = new PhpGoogleDrive([
+$googleDrive = new Drive([
     'pathToCredentials' => __DIR__ . '/credentials.json', // Required
     'pathToToken' => __DIR__ . '/token.json', // Required
 ]);
@@ -101,13 +101,13 @@ $fileId = $googleDrive->upload(
 **1. Save the credential to disk and specify the path to them by setting the `pathToCredentials` configuration key**
 
 ``` php
-$googleDrive = new PhpGoogleDrive([
+$googleDrive = new Drive([
     'pathToCredentials' => __DIR__ . '/credentials.json', // Required
     'pathToToken' => __DIR__ . '/token.json', // Required
 ]);
 ```
 
-> **Note** that `pathToToken` is the path where the `PhpGoogleDrive` saves the token after the first run. That is, the token will be saved automatically along the specified path; it is needed for your application to subsequently access Google Drive without the consent screen.
+> **Note** that `pathToToken` is the path where the `Drive` saves the token after the first run. That is, the token will be saved automatically along the specified path; it is needed for your application to subsequently access Google Drive without the consent screen.
 
 ---
 
