@@ -10,7 +10,7 @@ use Google_Service_Drive_DriveFile;
 /**
  * @see https://github.com/googleapis/google-api-php-client/blob/master/examples/simple-file-upload.php
  */
-class GoogleDrive
+class PhpGoogleDrive
 {
     private $pathToCredentials;
 

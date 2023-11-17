@@ -1,6 +1,7 @@
 {
-  "name": "w3lifer/google-drive",
+  "name": "w3lifer/php-google-drive",
   "keywords": [
+    "php",
     "google",
     "drive"
   ],

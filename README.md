@@ -1,4 +1,4 @@
-# google-drive
+# php-google-drive
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -6,7 +6,7 @@
 ## Installation
 
 ``` sh
-composer require w3lifer/google-drive
+composer require w3lifer/php-google-drive
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ composer require w3lifer/google-drive
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use w3lifer\google\GoogleDrive;
+use w3lifer\google\PhpGoogleDrive;
 
-$googleDrive = new GoogleDrive([
+$googleDrive = new PhpGoogleDrive([
     'pathToCredentials' => __DIR__ . '/credentials.json', // Required
     'pathToToken' => __DIR__ . '/token.json', // Required
 ]);
 
 $fileId = $googleDrive->upload(
-    __DIR__ . '/test.txt',  // Required
+    __DIR__ . '/hello.txt',  // Required
     [ // Optional
         '<folder id>',
         '<folder id>',
     ]
 );
-
-$folderId = $googleDrive->createFolder('Folder name');
 ```
+
+- Folder ID: `https://drive.google.com/drive/folders/<folder-id>`
