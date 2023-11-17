@@ -42,8 +42,6 @@ $fileId = $googleDrive->upload(
 
 ## How to get Google Drive API credentials
 
----
-
 ### Create a new project
 
 ---
@@ -99,8 +97,6 @@ $fileId = $googleDrive->upload(
 > ![](https://i.stack.imgur.com/2txzO.png)
 
 ## How to get a token
-
----
 
 **1. Save the credential to disk and specify the path to them by setting the `pathToCredentials` configuration key**
 
