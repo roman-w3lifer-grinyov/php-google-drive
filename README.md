@@ -48,9 +48,9 @@ $fileId = $googleDrive->upload(
 
 - https://console.cloud.google.com
 
-> ![](https://i.stack.imgur.com/D0orV.png)
+> ![](img/1.png)
 
-> ![](https://i.stack.imgur.com/dtqvu.png)
+> ![](img/2.png)
 
 ---
 
@@ -58,13 +58,13 @@ $fileId = $googleDrive->upload(
 
 ---
 
-> ![](https://i.stack.imgur.com/5S44Q.png)
+> ![](img/3.png)
 
-> ![](https://i.stack.imgur.com/QEP5e.png)
+> ![](img/4.png)
 
-> ![](https://i.stack.imgur.com/70YlU.png)
+> ![](img/5.png)
 
-> ![](https://i.stack.imgur.com/Gz3gQ.png)
+> ![](img/6.png)
 
 ---
 
@@ -72,21 +72,21 @@ $fileId = $googleDrive->upload(
 
 ---
 
-> ![](https://i.stack.imgur.com/l9zBr.png)
+> ![](img/7.png)
 
 <ins>If you left the screen above, go to "Enable API & services" and click "Google Drive API":</ins>
 
-> ![](https://i.stack.imgur.com/jIjyu.png)
+> ![](img/8.png)
 
-> ![](https://i.stack.imgur.com/BymkG.png)
+> ![](img/9.png)
 
-> ![](https://i.stack.imgur.com/wkBrU.png)
+> ![](img/10.png)
 
-> ![](https://i.stack.imgur.com/vBdC1.png)
+> ![](img/11.png)
 
-> ![](https://i.stack.imgur.com/qXN5E.png)
+> ![](img/12.png)
 
-> ![](https://i.stack.imgur.com/olM22.png)
+> ![](img/13.png)
 
 ---
 
@@ -94,7 +94,7 @@ $fileId = $googleDrive->upload(
 
 ---
 
-> ![](https://i.stack.imgur.com/2txzO.png)
+> ![](img/14.png)
 
 ## How to get a token
 
@@ -123,19 +123,19 @@ Enter verification code:
 
 - Open the link in the message and choose desired account:
 
-![](https://i.stack.imgur.com/lOzkM.png)
+![](img/15.png)
 
 - The warning "Google hasn't verified this app" may appear. Click "Advanced" and then "Go to ... (unsafe)":
 
-![](https://i.stack.imgur.com/YACgh.png)
+![](img/16.png)
 
 - On the next screen click "Continue":
 
-![](https://i.stack.imgur.com/wzWfm.png)
+![](img/17.png)
 
 - After the redirect, copy the code from the address bar of your browser and paste it in the console:
 
-![](https://i.stack.imgur.com/ZP45S.png)
+![](img/18.png)
 
 ```
 Open the following link in your browser:
